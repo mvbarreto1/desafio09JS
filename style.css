@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, font-weight 0.3s;
+}
+
+.menu-item:hover {
+    font-weight: bold;
+    background-color: #007BFF; /* Cor de destaque */
+    color: white; /* Texto branco quando destacado */
+}
